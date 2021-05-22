@@ -6,7 +6,8 @@ user
 - id_session VARCHAR(255) NOT NULL
 
 message
-- text_message VARCHAR(555) NOT NULL
-- text_time DATETIME NOT NULL
-- user_id INT NOT NULL REFERENCES user(ID)
+
 - id INT NOT NULL AUTO_INCREMENT
+- user_id INT NOT NULL
+- time DATETIME NOT NULL
+- message TEXT NOT NULL
