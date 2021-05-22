@@ -1,0 +1,6 @@
+user
+
+- id INT NOT NULL AUTO_INCREMENT
+- name VARCHAR(255) NOT NULL
+- reg_time DATETIME NOT NULL
+- id_session VARCHAR(255) NOT NULL
